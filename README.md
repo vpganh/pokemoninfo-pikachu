@@ -1,5 +1,7 @@
 # pokemoninfo-pikachu
 
+link: https://phuonganhvuo-8080.theiadocker-2-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/
+
 ## Deploy a Web App Using Python and IBM Code Engine
 Why do this project?
 Whether you are just learning Python and Flask or a seasoned developer you need to find a place to deploy your app, to make it available to the world. You can build your own server or maybe get a virtual machine from one of the cloud providers like Digital Ocean, AWS, IBM, Azure, Google etc. But that is so 2012. You want to do it the Cloud Native way and that means you are going to look at containers and Kubernetes.
