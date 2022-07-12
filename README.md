@@ -27,7 +27,7 @@ A very basic knowledge of Python
 ## Building and Containerizing the Flask application
 Let’s create our `Hello World` application! In the Cloud IDE, create an app folder (hint: use File/New Folder menu) and switch to it. Inside this directory create a `main.py` file
 
-Open a terminal session in the Cloud IDE and switch in to the project directory where we have the `Dockerfile` and the app directory. Run `$ docker build -t hello-world` . in the Cloud IDE terminal. This builds the image, giving it a tag called hello-world.
+Open a terminal session in the Cloud IDE and switch in to the project directory where we have the `Dockerfile` and the app directory. Run `$ docker build -t hello-world .` (included the dot simbol) in the Cloud IDE terminal. This builds the image, giving it a tag called hello-world.
 
 Next run the image using `$ docker run -dp 8080:8080 hello-world`.
 
